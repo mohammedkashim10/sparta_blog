@@ -23,3 +23,16 @@
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
+
+<br>
+<br>
+
+<ul class="list-group">
+  <% @user.comments.each do |comment| %>
+    <li class="list-group-item">
+      <%= link_to edit_blog_comment_path(@user, comment) do %>
+      <%= comment.body %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>
