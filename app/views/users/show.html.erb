@@ -15,5 +15,11 @@
   <%= @user.dob %>
 </p>
 
+<% @user.blogs.each do |blog| %>
+  <%= link_to blog do %>
+  <h5><%= blog.title %></h5>
+  <% end %>
+<% end %>
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
