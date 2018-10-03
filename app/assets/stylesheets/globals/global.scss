@@ -25,3 +25,17 @@ body {
   background: rgba(162, 45, 45, 0.5);
   color: white;
 }
+
+.show-top {
+  background: rgba(162, 45, 45, 0.5);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.list-group-item {
+  background-color: rgba(189, 183, 51, 0.5);
+  a {
+    color: rgb(162, 45, 45);
+  }
+}
