@@ -1,0 +1,27 @@
+.navbar {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.jumbotron {
+  background: rgba(162, 45, 45, 0.5);
+  .btn {
+    background: rgb(162, 45, 45);
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 8px, 4px;
+  }
+  color: white;
+  border-bottom: 2px solid black;
+  border-radius: 0;
+}
+
+body {
+  background: url('notepad.jpg');
+  background-position: top;
+}
+
+.table {
+  background: rgba(162, 45, 45, 0.5);
+  color: white;
+}
